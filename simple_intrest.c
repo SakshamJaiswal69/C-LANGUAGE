@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<stdio.h>
 
 int main(){
@@ -6,4 +7,14 @@ int main(){
     int r=12;
     printf("the value of simple intrest is %f",(p*r*t)/100);
     return 0;
+=======
+#include<stdio.h>
+
+int main(){
+    float p=43.6;
+    int t=5;
+    int r=12;
+    printf("the value of simple intrest is %f",(p*r*t)/100);
+    return 0;
+>>>>>>> ea522f5577ce28428b9466e3da2065401ee02aef
 }
