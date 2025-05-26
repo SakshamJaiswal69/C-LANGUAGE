@@ -1,11 +1,10 @@
-<<<<<<< HEAD
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+int main()
+{
     int a;
     printf("enter your age barkhurdaar : ");
-    scanf("%i ",&a);
-
-    if(a>=19)
+    scanf("%i ", &a);
+    if (a>=19)
     {
         printf("you are eligible for voting");
     }
@@ -14,21 +13,20 @@ int main(){
         printf("you are not Eligible");
     }
     return 0;
-=======
-#include<stdio.h>
-int main(){
-    int a;
-    printf("enter your age barkhurdaar : ");
-    scanf("%i ",&a);
-
-    if(a>=19)
-    {
-        printf("you are eligible for voting");
-    }
-    else
-    {
-        printf("you are not Eligible");
-    }
-    return 0;
->>>>>>> ea522f5577ce28428b9466e3da2065401ee02aef
 }
+// #include<stdio.h>
+// int main(){
+//     int a;
+//     printf("enter your age barkhurdaar : ");
+//     scanf("%i ",&a);
+
+//     if(a>=19)
+//     {
+//         printf("you are eligible for voting");
+//     }
+//     else
+//     {
+//         printf("you are not Eligible");
+//     }
+//     return 0;
+// }
