@@ -1,5 +1,21 @@
-<<<<<<< HEAD
 /*#include<stdio.h>
+
+int main(){
+    int r =6;
+    printf("the area of circle with radius %d is %f",r,3.14*r*r);
+    return 0;
+}
+
+#include<stdio.h>
+
+int main(){
+    int r =6;
+    int height =10;
+    printf("the area of circle with radius %d is %f\n",r,3.14*r*r);
+    printf("the volume of cylinder with radius %d and height %d is %f",r,height,3.14*r*r*height);
+    return 0;
+}
+#include<stdio.h>
 
 int main(){
     int r =6;
@@ -9,28 +25,11 @@ int main(){
 */
 #include<stdio.h>
 
-int main(){
+int main() {
     int r =6;
     int height =10;
     printf("the area of circle with radius %d is %f\n",r,3.14*r*r);
     printf("the volume of cylinder with radius %d and height %d is %f",r,height,3.14*r*r*height);
-    return 0;
-=======
-/*#include<stdio.h>
-
-int main(){
-    int r =6;
-    printf("the area of circle with radius %d is %f",r,3.14*r*r);
-    return 0;
-}
-*/
-#include<stdio.h>
-
-int main(){
-    int r =6;
-    int height =10;
-    printf("the area of circle with radius %d is %f\n",r,3.14*r*r);
-    printf("the volume of cylinder with radius %d and height %d is %f",r,height,3.14*r*r*height);
-    return 0;
->>>>>>> ea522f5577ce28428b9466e3da2065401ee02aef
+    
+return 0;
 }
